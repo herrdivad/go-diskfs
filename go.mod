@@ -1,4 +1,4 @@
-module github.com/diskfs/go-diskfs
+module github.com/herrdivad/go-diskfs
 
 go 1.22
 
