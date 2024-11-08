@@ -1,7 +1,7 @@
 // Package disk provides utilities for working directly with a disk
 //
 // Most of the provided functions are intelligent wrappers around implementations of
-// github.com/diskfs/go-diskfs/partition and github.com/diskfs/go-diskfs/filesystem
+// github.com/herrdivad/go-diskfs/partition and github.com/herrdivad/go-diskfs/filesystem
 package disk
 
 import (
@@ -12,12 +12,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/ext4"
-	"github.com/diskfs/go-diskfs/filesystem/fat32"
-	"github.com/diskfs/go-diskfs/filesystem/iso9660"
-	"github.com/diskfs/go-diskfs/filesystem/squashfs"
-	"github.com/diskfs/go-diskfs/partition"
+	"github.com/herrdivad/go-diskfs/filesystem"
+	"github.com/herrdivad/go-diskfs/filesystem/ext4"
+	"github.com/herrdivad/go-diskfs/filesystem/fat32"
+	"github.com/herrdivad/go-diskfs/filesystem/iso9660"
+	"github.com/herrdivad/go-diskfs/filesystem/squashfs"
+	"github.com/herrdivad/go-diskfs/partition"
 )
 
 // Disk is a reference to a single disk block device or image that has been Create() or Open()
@@ -147,7 +147,7 @@ type FilesystemSpec struct {
 // Required:
 //   - desired partition number, or 0 to create the filesystem on the entire block device or
 //     disk image,
-//   - the filesystem type from github.com/diskfs/go-diskfs/filesystem
+//   - the filesystem type from github.com/herrdivad/go-diskfs/filesystem
 //
 // Optional:
 //   - volume label for those filesystems that support it; under Linux this shows

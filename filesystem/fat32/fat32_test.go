@@ -17,12 +17,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diskfs/go-diskfs"
-	"github.com/diskfs/go-diskfs/disk"
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/filesystem/fat32"
-	"github.com/diskfs/go-diskfs/testhelper"
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/herrdivad/go-diskfs"
+	"github.com/herrdivad/go-diskfs/disk"
+	"github.com/herrdivad/go-diskfs/filesystem"
+	"github.com/herrdivad/go-diskfs/filesystem/fat32"
+	"github.com/herrdivad/go-diskfs/testhelper"
+	"github.com/herrdivad/go-diskfs/util"
 )
 
 var (

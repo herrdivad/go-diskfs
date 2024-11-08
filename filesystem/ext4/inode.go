@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
+	"github.com/herrdivad/go-diskfs/filesystem/ext4/crc"
 )
 
 type inodeFlag uint32

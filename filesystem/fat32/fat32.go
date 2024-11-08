@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem"
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/herrdivad/go-diskfs/filesystem"
+	"github.com/herrdivad/go-diskfs/util"
 )
 
 // MsdosMediaType is the (mostly unused) media type. However, we provide and export the known constants for it.
@@ -87,7 +87,7 @@ func (fs *FileSystem) Equal(a *FileSystem) bool {
 // 20GB, and create a small filesystem of size 50MB that begins 2GB into the disk.
 // This is extremely useful for creating filesystems on disk partitions.
 //
-// Note, however, that it is much easier to do this using the higher-level APIs at github.com/diskfs/go-diskfs
+// Note, however, that it is much easier to do this using the higher-level APIs at github.com/herrdivad/go-diskfs
 // which allow you to work directly with partitions, rather than having to calculate (and hopefully not make any errors)
 // where a partition starts and ends.
 //
@@ -318,7 +318,7 @@ func Create(f util.File, size, start, blocksize int64, volumeLabel string) (*Fil
 // 20GB, and a small filesystem of size 50MB that begins 2GB into the disk.
 // This is extremely useful for working with filesystems on disk partitions.
 //
-// Note, however, that it is much easier to do this using the higher-level APIs at github.com/diskfs/go-diskfs
+// Note, however, that it is much easier to do this using the higher-level APIs at github.com/herrdivad/go-diskfs
 // which allow you to work directly with partitions, rather than having to calculate (and hopefully not make any errors)
 // where a partition starts and ends.
 //

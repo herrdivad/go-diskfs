@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/diskfs/go-diskfs/testhelper"
+	"github.com/herrdivad/go-diskfs/testhelper"
 )
 
 // TestDirectoryEntriesFromBytes largely a duplicate of TestdirectoryEntryParseDirEntries

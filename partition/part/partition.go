@@ -3,7 +3,7 @@ package part
 import (
 	"io"
 
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/herrdivad/go-diskfs/util"
 )
 
 // Partition reference to an individual partition on disk

@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/diskfs/go-diskfs/filesystem/ext4/crc"
-	"github.com/diskfs/go-diskfs/util"
+	"github.com/herrdivad/go-diskfs/filesystem/ext4/crc"
+	"github.com/herrdivad/go-diskfs/util"
 	"github.com/google/uuid"
 )
 
