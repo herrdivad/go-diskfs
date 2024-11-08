@@ -1142,6 +1142,9 @@ func TestCreateFileTree(t *testing.T) {
 	file = "/b/sub51/blob/gigfile1"
 	if err := testMkFile(fs, file, gb); err != nil {
 		t.Errorf("Error making gigfile1 %s: %v", file, err)
+	}
+}
+
 func Test_RenameFile(t *testing.T) {
 	workingPath := "/"
 	oldFileName := "old.txt"
