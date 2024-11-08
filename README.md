@@ -1,3 +1,5 @@
+This is a fork of github.com/diskfs/go-diskfs and the purpose of this forke is to merge the remove from fat32 functions!!!
+
 # go-diskfs
 go-diskfs is a [go](https://golang.org) library for performing manipulation of disks, disk images and filesystems natively in go.
 
